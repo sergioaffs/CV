@@ -1,0 +1,192 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage[pdfstartview={FitH}]{hyperref}
+%\usepackage{newcent}   % uses new century schoolbook postscript font  
+\usepackage[english]{babel}
+\setlength{\topmargin}{-0.8in}  % Start text higher on the page 
+\setlength{\textheight}{9.8in}  % increase textheight to fit more on a page
+\setlength{\headsep}{0.2in}     % space between header and text
+\setlength{\headheight}{4pt}   % make room for header
+\usepackage{fancyhdr}  % use fancyhdr package to get 2-line header
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\lhead{\hspace*{-\sectionwidth}Sergio A. Figueroa} % force lhead all the way left
+\rhead{Page \thepage}  % put page number at right
+\cfoot{}  % the footer is empty
+\pagestyle{fancy} % set pagestyle for the document
+\newcommand{\at}{\makeatletter @\makeatother}
+
+\begin{document} 
+\thispagestyle{empty} % this page does not have a header
+\name{Sergio A. Figueroa - \href{mailto:sergioaffs@gmail.com}{sergioaffs@gmail.com}}
+\address{Pikk 2 56, Tartu, Estonia}
+\address{CEL: (+372) 5196 5545}
+
+
+\begin{resume}
+
+\vspace{0.1in}
+%\moveleft.5\sectionwidth\centerline{Objective: Position as technical writer or editor.}  
+\section{WORK EXPERIENCE} 
+    {\bf Information Security Consultant,} CYBERTECH DE COLOMBIA\\
+	Bogot\'a, Colombia  2011-Dec to 2014-Aug\\
+	\emph{Main responsibilities: }
+	
+	\begin{itemize}
+		\item[-] Provide support and implement new features for cryptographic software.
+		\item[-] Lead information security consulting projects. Specifically about cryptographic solutions and risk assesment.
+		\item[-] I+D of new technologies for information security management.
+	\end{itemize}
+	\emph{Accomplished goals: }
+	
+	\begin{itemize}
+		\item[-] The analysis of security vulnerabilities in critical environments, including government, military and banking.
+		\item[-] Development of new learning tools to improve the effectiveness of information security education (in academic and business scenarios).
+		\item[-] Construction of cryptographic systems designed to offer, at the same time, high levels of security and usability.
+		\item[-] ``Education-based support'': support provided in such a way it ensures that clients understand the relevance of each step of the information security chain.
+	\end{itemize} 
+     {\bf Developer in the Movistar Provisioning Group,} INDRA COLOMBIA\\
+	Bogot\'a, Colombia  2010-Jul to 2011-Jan\\	
+	\emph{Main responsibilities: }\\	
+	\begin{itemize}
+		\item[-] The development of applications to support provisioning at Movistar Colombia.
+		\item[-] To provide maintenance and support for legacy systems at Movistar Colombia.
+	\end{itemize}
+	\emph{Accomplished goals: }\\
+	
+	\begin{itemize}
+		\item[-] Development and support for the company's core system.
+		\item[-] Implementation of modules for an end-user system within Movistar.
+		\item[-] Design and implementation of a traffic simulation system under different parameters.
+	\end{itemize}
+      {\bf Unpaid Associate,} DESIGNER LTDA.\\
+	Bogot\'a, Colombia  2009-Jun to 2009-Aug\\
+	\emph{Main Responsibilities: }
+	
+	\begin{itemize}
+		\item[-] Consulting regarding the implementation of new technologies.
+		\item[-] Providing assistance in the implementation of several components of the payroll software offered by the company.
+	\end{itemize}
+	
+	\emph{Accomplished goals: }
+	
+	\begin{itemize}
+		\item[-] The implementation of new end-user technologies to improve employee performance.
+		\item[-] The successful deployment of the system at several companies in different industries.
+	\end{itemize}
+ 
+ 
+ \section{EDUCATION} 
+
+ {\bf NordSecMob - Master's Programme in Security and Mobile Computing,} \mbox{UNIVERSITY} OF TARTU\\
+		Tartu, Estonia 2015-
+
+	\begin{itemize}
+		\item[-] Thesis on \textbf{key management for Internet voting scenarios}.
+		\item[-] Focus on cryptography: covering principles and advanced protocols, such as homomorphic encryption, zero knowledge proofs, commitments and quantum cryptography.
+	\end{itemize}
+
+{\bf NordSecMob - Master's Programme in Security and Mobile Computing,} AALTO UNIVERSITY\\
+		Espoo, Finland  2014-
+
+	\begin{itemize}
+		\item[-] Focus on mobile technologies and large scale networking: Next Generation and Content Distribution Networks, concurrent and cloud computing.
+	\end{itemize}
+
+{\bf Specialization in Information Security,} UNIVERSIDAD DE LOS ANDES\\
+		Bogot\'a, Colombia  2012-2013
+	\begin{itemize}
+		\item[-] Comprehensive information security education: from policy and definition of security requirements to security in development and infrastructure.
+		\item[-] Led lectures on BPMN, cryptography and co-authored a workshop about security in industrial control systems.
+	\end{itemize}
+
+{\bf Computer Systems Engineering,} UNIVERSIDAD DE LOS ANDES\\
+		Bogot\'a, Colombia  2007-2011
+	\begin{itemize}
+		\item[-] (2011) Semifinalist in the international FutureMinds competition, organized by the Spanish corporation Indra. \\ \url{http://www.indracompany.com/tu-carrera-en-indra/future-minds}
+		\item[-] (2010) Winner of the \emph{Innovation with Information and Communication Technology} competition at Universidad de los Andes, with the subsequent publication of the award-winning project in the digital edition of Dinero magazine.\\  Short link: \url{http://goo.gl/T1PTfF}		
+ 
+\section{SKILLS} 
+
+%\\
+	{\bf Information security} 
+       \begin{itemize}
+        \item[-] Design and implementation of cryptographic solutions
+		\item[-] Risk assessment
+		\item[-] Vulnerability analysis and penetration testing
+		\item[-] Business process vulnerability identification
+		\item[-] Network security
+    \end{itemize}
+	
+  {\bf Software}
+    \begin{itemize} % Use \item[] to prevent a bullet from appearing
+	  \item[-] Programming languages (working level): Java, Python.\\
+	  \item[-] Programming languages (basic knowledge): C, C\#, PL/SQL, OS scripting (Windows, Linux), Android.
+	  \item[-] Software architecture evaluation (ATAM methodology).	  
+    \end{itemize}
+
+    {\bf Others}
+    \begin{itemize} % Use \item[] to prevent a bullet from appearing
+	  \item[-] Experience leading software and consulting projects in charge of a small team.
+	  \item[-] Principles of estimation for software projects.
+	  \item[-] Experience communicating technical information in written and verbal forms.	  
+    \end{itemize}
+	
+	\section{LANGUAGES} 
+	\begin{tabular}{l l}
+		SPANISH & Native speaker 								\\
+		ENGLISH  & Fluent - \emph{TOEFL iBT Score: 103/120} \\
+		FRENCH & Working knowledge                               \\
+		GERMAN & Basic knowledge                             \\
+		ITALIAN & Basic knowledge                             \\
+	\end{tabular}
+ 
+ 
+
+
+\section{ACCOMPLISH-MENTS} 
+
+\emph{The links in this section belong to third parties and may not be available all the time. All of them are in spanish.}
+    \begin{description}
+		\item[2010-2011, 2013] Occasional contributor for ENTER.CO magazine. \\ \url{http://goo.gl/bZjxfP}\\ \url{http://goo.gl/4Q3Dnk}
+		\\ \url{http://goo.gl/Q07Lk3}		
+		\item[2007] Appearance in an edition of newspaper EL TIEMPO discussing experiences and comments regarding the Web 2.0. Monday March 19 2007.\\
+	\url{http://www.eltiempo.com/archivo/documento/MAM-2420476}    		
+	\end{description}
+
+	
+ \section{OTHER EDUCATION} 
+ 
+	{\bf Unpredictable? Randomness, Chance and Free Will}\\ \emph{Introduction to randomization in computer science}\\
+		NATIONAL UNIVERSITY OF SINGAPORE - in association with Coursera\\
+		Online course 2014
+
+	{\bf Usable Security}\\ \emph{How to improve security decisions made by users}\\
+		UNIVERSITY OF MARYLAND - in association with Coursera\\
+		Online course 2014
+
+	{\bf Malicious Software and its Underground Economy}\\ \emph{Introduction to malware analysis}\\
+		UNIVERSITY OF WASHINGTON - in association with Coursera\\
+		Online course 2013
+		
+	{\bf Securing Digital Democracy}\\ \emph{Course about security on physical, mechanical and electronic voting systems}\\
+		UNIVERSITY OF MICHIGAN - in association with Coursera\\
+		Online course 2012
+		
+	{\bf Natural Language Processing}\\ \emph{Course about Natural Language Processing}\\
+		STANFORD UNIVERSITY - in association with Coursera\\
+		Online course 2012
+
+	{\bf Cryptography I}\\ \emph{Introduction to cryptography}\\
+		STANFORD UNIVERSITY - in association with Coursera\\
+		Online course 2012
+		
+	{\bf Military Intelligence and Cryptography}\\ \emph{Graduate-level course about theory and implementation of cryptographic mechanisms}\\
+		UNIVERSIDAD DE LOS ANDES\\
+		Bogot\'a, Colombia  2011
+				
+
+	
+\end{resume}
+\end{document}
+
